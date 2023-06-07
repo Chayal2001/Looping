@@ -1,0 +1,11 @@
+function print_digits(n){
+    /*Function to print the digits of the number n 
+        Note Print all the digits in a new line*/
+ 
+while(n>0){
+    let digit =n%10;
+  console.log(digit)
+    n=Math.floor(n/10);
+}
+
+}
